@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES5", //my typescript will compile to javascript ES5
+    "outDir": "build", //where the output files will go
+    //"noEmit": true  //comment this in if we want babel to do the compiling instead (and we're only using typescript for typechecking)
+  },
+
+  "include": ["src/**/*"]
+}
