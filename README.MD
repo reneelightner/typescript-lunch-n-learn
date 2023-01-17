@@ -11,11 +11,11 @@
 - TypeScript files end with a `.ts`
 - We’ll only go over the basics of TypeScript here (not the advanced parts)
 - You'll need to install the TypeScript package into Sublime Text (Command (⌘) + shift + p to open the Package Manager, after that, type *TypeScript* and choose the first option)
-- However, VS code has built in support for typescript.
+- However, VS code has built in support for typescript
 - TypeScript info: https://www.typescriptlang.org/
 - TypeScript Playground: https://www.typescriptlang.org/play
 
-#### Installing TypeScript in you JavaScript app:
+#### Installing TypeScript in your existing JavaScript app:
 - Resource: https://www.typescriptlang.org/download
 - First we need to install the TypeScript compiler. We can use NPM to install it.
 - We’ll install the TypeScript compiler as a dev dependency because it’ll only be needed at development time and not at runtime: `npm install typescript --save-dev`
@@ -27,3 +27,6 @@
 `noEmit`: true (now it won't compile the `.ts` files, use this if only using TypeScript for type checking and instead using babel for compile)
 - Finally, set up a `src` folder with `.ts` files and set up an empty `build` folder, both at root level
 - Run the TypeScript compiler in your bash shell: `npx tsc`. See how `.ts` files in `src` are compiled into `.js` files in `build` 
+
+#### To create a new app with **React.js** and TypeScript
+- you can run `npx create-react-app my-app --template typescript` 
