@@ -63,8 +63,10 @@ let f:any
 let g = 'something'
 
 //if you try to assign to antother type you'll get an error
+a = true
 
 // but then if you change that assignement to the right type you wont get an error
+a = 'Renee'
 
 // TypeScript has a syntax for typing objects (example below)
 // but if objects are reused we call them 'interfaces' (next chapter)
